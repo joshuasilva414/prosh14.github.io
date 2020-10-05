@@ -1,6 +1,6 @@
 html, body {
-  background: no-repeat url("seamless tech pattern.jpg");
-  background-size: 100%;
+  background: url("seamless tech pattern.jpg");
+  background-size: cover;
   overflow: hidden;
 }
 
