@@ -2,6 +2,8 @@ body {
   font-family: Helvetica;
   align-content: center;
   text-align: center;
+  background: url("seamless tech pattern.jpg");
+  background-size: cover;
 }
 
 table, form {
