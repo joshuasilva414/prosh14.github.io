@@ -85,6 +85,6 @@ div.gallery > img {
 input[type="submit"]{
   height: 40px;
   width: 125px;
-  color: blue;
+  color: solid blue;
   border-radius: 10px;
 }
