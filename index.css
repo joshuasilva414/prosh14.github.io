@@ -4,7 +4,7 @@ html, body {
 
 body{
   background: url("seamless tech pattern.jpg");
-  background-size: cover;
+  background-size: contain, cover;
 }
 
 img {
