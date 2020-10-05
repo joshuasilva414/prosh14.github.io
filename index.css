@@ -1,7 +1,10 @@
 html, body {
+  overflow: hidden;
+}
+
+body{
   background: url("seamless tech pattern.jpg");
   background-size: cover;
-  overflow: hidden;
 }
 
 img {
