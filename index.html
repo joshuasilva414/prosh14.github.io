@@ -1,64 +1,56 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="index.css" />
-  <link rel="stylesheet" type="text/css" href="master.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon_galaxy/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon_galaxy/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon_galaxy/favicon-16x16.png">
-  <link rel="manifest" href="favicon_galaxy/site.webmanifest">
-  <title>Home</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Josh's CS Site</title>
+  </head>
 
-<body>
-  <div>
-    <h1 class="Welcome">Josh's CS Site!</h1>
-    <div class="Profile">
-      <img src="WebsitePhoto.jpg"></img>
-      <h2>Joshua Silva</h2>
-      <h3><em><a href="https://jbhs.org">JBHS</a> CS Student</em></h3>
-    </div>
-    <hr />
-    <div class="Info">
-      <br />
-      <div class="ul">
-        <h3>I code in:</h3>
-        <h4>
-          <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Html</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>C#</li>
-            <li>Swift</li>
-          </ul>
-        </h4>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html"><img class="logo" id="rotate" src="images/logo.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="https://prosh14.github.io">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Portfolio</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
       </div>
-      <div class="ul">
-        <h3>Interests: </h3>
-        <h4>
-          <ul>
-            <li>Computer Science</li>
-            <li>Robotics</li>
-            <li>Engineering</li>
-            <li>3d Modelling</li>
-          </ul>
-        </h4>
-      </div>
-    </div>
-    <hr />
-    <nav>
-      <h3 class="navlink"><a href="schedule.html">Class Schedule</a></h3>
-      <h3 class="navlink"><a href="coolHtml.html">Cool Html</a></h3>
-      <h3 class="navlink"><a href="gallery.html">Blender Gallery</a></h3>
-      <h3 class="navlink"><a href="contactMe.html">Contact Me</a></h3>
-      <h3 class="navlink"><a href="bio.html">About Me</a></h3>
     </nav>
-    <hr />
 
-</body>
+
+    <div class="container-fluid d-flex align-items-center justify-content-center text-light" id="welcome">
+      <h1 style="font-size: 5rem;">Josh's CS Site</h1>
+    </div>
+
+
+    <div class="container-fluid d-flex align-items-center" id="aboutme">
+      <img src="images/web-development.png" />
+      <div>
+        <h1 class="mx-auto mb-4">About Me</h1>
+        <p class="mr-5">
+          My name is Joshua Silva. I'm a student at James Bowie High School in Austin, Texas. I take 3
+          computer science electives and my favorite is Web Development. I use
+          my spare time to learn more about coding and expand my knowledge of
+          computer science.
+        </p>
+        <button class="btn btn-lg btn-primary" style="margin-top: 25px;">Learn About Me</button>
+      </div>
+    </div>
+
+    <div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
 
 </html>

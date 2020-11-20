@@ -1,0 +1,41 @@
+.logo {
+  width: 5rem;
+}
+
+.attribution{
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #222831;
+}
+
+#rotate {
+  animation: rotation 8s infinite linear;
+}
+
+#aboutme {
+  background-color: #0092ca;
+  height: 500px;
+}
+
+#aboutme > img{
+  margin: 50px;
+  width: 250px;
+}
+
+#welcome{
+  height: 500px;
+  margin-top: 106px;
+  background-image: url("images/tech-background.jpg");
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
