@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.page-title {
+  font-size: 5rem;
+}
+
 body {
   background-color: #222831;
 }
@@ -16,19 +20,17 @@ body {
 }
 
 #aboutme {
-  background-color: #0092ca;
-  height: 500px;
+  background-color: #00c8ff;
 }
 
-#aboutme > img{
-  margin: 50px;
-  width: 250px;
-}
-
-#welcome{
+#Welcome{
   height: 500px;
   margin-top: 106px;
   background-image: url("images/tech-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 @keyframes rotation {
